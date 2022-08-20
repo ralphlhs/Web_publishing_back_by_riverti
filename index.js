@@ -8,11 +8,11 @@ var cors = require('cors')
 app.use(cors())
 
 app.get('/', function (req, res) {
-  res.send(`<a href ='http://localhost:8080/dog'> Hello World & 안녕형섭 on port ${port}</a>`)
+  res.send(`<a href ='https://port-0-web-publishing-back-by-riverti-2jz924l72brqcl.gksl1.cloudtype.app/dog'> Hello World & 안녕형섭 on port ${port}</a>`)
 })
 
 app.get('/dog', function (req, res) {
-  res.send("<a href ='http://localhost:8080/dog/pic'> 개 멍멍</a>")
+  res.send("<a href ='https://port-0-web-publishing-back-by-riverti-2jz924l72brqcl.gksl1.cloudtype.app/dog/pic'> 개 멍멍</a>")
 })
 
 app.get('/sound/:name', (req, res) => {
